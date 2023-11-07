@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(bg1);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    width: 150px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left:480px ;
+}
+.menu{
+    width: 180px;
+    /* float: left; */
+    height: 35px;
+    position: absolute;
+    left: 35px;
+    top: 50px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color:#ecf0f3;
+}
+
+.menu a{
+    font-size: 30px;
+    color:gray;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+    font-style: italic;
+    -webkit-text-stroke: black 0.5px;
+    transition: 0.2s ease-in-out;
+}
+.menu a:hover{
+    color:black;
+}
+.container{
+    position: absolute;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+    display: flex;
+    top:28%;
+    left: 37%;
+}
+.calculator{
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px white,
+                    5px 5px 12px black;
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 270px;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0,0,0,0.16);
+     border: none;   
+     border-radius: 30px;
+     color: rgb(70,70,70);
+     font-size: 50px;
+     text-align: end;
+     margin: auto;
+     margin-top: 30px;
+     margin-bottom: 20px;
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color: #ecf0f3;
+    box-shadow:  -5px -5px 12px #ffffff,
+                 5px 5px 12px rgba(0,0,0,0.16);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.equal{
+    width: 120px;
+    border-radius: 20px;
+    box-shadow:  -5px -5px 12px #ffffff,
+                    5px 5px 12px rgba(0,0,0,0.36);;
+}
